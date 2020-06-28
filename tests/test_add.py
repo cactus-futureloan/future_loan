@@ -15,6 +15,15 @@ print(cases)
 logger = env_data.logger
 
 
+def add(*args):
+    """加法函数"""
+    sum = 0
+    for item in args:
+        sum += item
+    return sum
+def sub(a,b):
+    return a-b
+
 @ddt.ddt
 class TestAdd(unittest.TestCase):
 
