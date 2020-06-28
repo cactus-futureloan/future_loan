@@ -14,6 +14,13 @@ logger = env_data.logger
 cases = env_data.excel.read_data("audit")
 print(cases)
 
+def add(*args):
+    """加法函数"""
+    sum = 0
+    for item in args:
+        sum += item
+    return sum
+
 
 @ddt.ddt
 class TestAudit(unittest.TestCase):
