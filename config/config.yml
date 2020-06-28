@@ -1,0 +1,26 @@
+excel:
+  file: "testcases.xlsx"
+log:
+  loggername: "test_logger"
+  file: "log.txt"
+  logger_level: "DEBUG"
+  stream_level: "DEBUG"
+  file_level: "INFO"
+
+db:
+  host: "120.78.128.25"
+  port: 3306
+  user: "future"
+  password: "123456"
+  charset: "utf8"
+  database: futureloan
+
+user:
+  mobile_phone: "18810979246"
+  pwd: "12345678"
+
+admin_user:
+  mobile_phone: "15512429640"
+  pwd: "12345678"
+
+host: "http://api.lemonban.com/futureloan"
