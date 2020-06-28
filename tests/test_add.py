@@ -24,6 +24,12 @@ def add(*args):
 def sub(a,b):
     return a-b
 
+def mulit(*args):
+    sum_mulit = 1
+    for i in args:
+        sum_mulit *= i
+    return sum_mulit
+
 @ddt.ddt
 class TestAdd(unittest.TestCase):
 
