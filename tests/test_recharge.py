@@ -14,6 +14,12 @@ logger = handler.MiddleHandler.logger
 env_data = handler.MiddleHandler()
 
 
+def add(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    return sum
+
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
 
