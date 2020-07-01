@@ -32,6 +32,9 @@ def demo(*args):
 def demo01(a,b):
     pass
 
+def demo02(a):
+    pass
+
 
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
