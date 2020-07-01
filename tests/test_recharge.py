@@ -26,6 +26,9 @@ def sub(a,b):
 def mulit(a,b):
     return a*b
 
+def demo(*args):
+    pass
+
 
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
