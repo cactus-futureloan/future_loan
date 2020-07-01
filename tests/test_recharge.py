@@ -29,6 +29,9 @@ def mulit(a,b):
 def demo(*args):
     pass
 
+def demo01(a,b):
+    pass
+
 
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
