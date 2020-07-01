@@ -23,6 +23,10 @@ def add(*args):
 def sub(a,b):
     return a-b
 
+def mulit(a,b):
+    return a*b
+
+
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
 
