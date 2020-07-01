@@ -20,6 +20,9 @@ def add(*args):
         sum += i
     return sum
 
+def sub(a,b):
+    return a-b
+
 @ddt.ddt
 class TestRecharge(unittest.TestCase):
 
